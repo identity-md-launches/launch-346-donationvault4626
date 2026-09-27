@@ -1,0 +1,22 @@
+{
+  "kind": "evm_project",
+  "token": {
+    "contract": "LaunchToken",
+    "name": "Piggy",
+    "symbol": "PIGY",
+    "decimals": 18
+  },
+  "contracts": [
+    {
+      "contract": "DonationVault4626",
+      "constructorArgs": ["$token"]
+    }
+  ],
+  "pool": {
+    "pairedCurrency": "0x0000000000000000000000000000000000000000",
+    "fee": 3000,
+    "tickSpacing": 60,
+    "initialPrice": "79228162514264337593543950336"
+  },
+  "notes": "Sepolia launch through the project factory. Deploy LaunchToken first, then DonationVault4626 with the launch token as its immutable asset. Neither constructor grants a privileged role; no initialization calls or vault funding are required. The native ETH/PIGY pool has no hook. initialPrice is decimal sqrtPriceX96; services derive the effective opening price from the pinned policy when it specifies initialMarketCapWei. The vault issues Piggy Vault (vPIGY) shares with 24 decimals and streams donate() inflows over seven days. Direct PIGY transfers count immediately; residual donations keep vesting after all shares are redeemed and can benefit subsequent depositors. Policy, signed artifact linkage, publication, admission and deployment are service responsibilities."
+}
