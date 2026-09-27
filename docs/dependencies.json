@@ -1,0 +1,59 @@
+[
+  {
+    "name": "openzeppelin-contracts",
+    "repository": "https://github.com/OpenZeppelin/openzeppelin-contracts",
+    "version": "v5.0.2",
+    "archive": "https://codeload.github.com/OpenZeppelin/openzeppelin-contracts/tar.gz/refs/tags/v5.0.2",
+    "archive_sha256": "18c7b7e949b9a82dcd8cd394426c9c2636dfc263aa2317d4749dbfa0c7b3925a",
+    "files": {
+      "LICENSE": "0e05b4f45c8769ece14ba2d202bf6f5ed7132600b642c981266f7255e0187ea3",
+      "contracts/interfaces/IERC4626.sol": "2489b7a0c7577ade27c1f837833b8cd74471f053fa20a94ebc577ee4e1771076",
+      "contracts/interfaces/draft-IERC6093.sol": "4aea87243e6de38804bf8737bf86f750443d3b5e63dd0fd0b7ad92f77cdbd3e3",
+      "contracts/token/ERC20/ERC20.sol": "2d874da1c1478ed22a2d30dcf1a6ec0d09a13f897ca680d55fb49fbcc0e0c5b1",
+      "contracts/token/ERC20/IERC20.sol": "6f2faae462e286e24e091d7718575179644dc60e79936ef0c92e2d1ab3ca3cee",
+      "contracts/token/ERC20/extensions/ERC4626.sol": "bc3eb01a42e08f33e8591a726e28c7107b6c4fedd6be0d9d2d1c049853698be8",
+      "contracts/token/ERC20/extensions/IERC20Metadata.sol": "1d079c20a192a135308e99fa5515c27acfbb071e6cdb0913b13634e630865939",
+      "contracts/token/ERC20/extensions/IERC20Permit.sol": "912509e0e9bf74e0f8a8c92d031b5b26d2d35c6d4abf3f56251be1ea9ca946bf",
+      "contracts/token/ERC20/utils/SafeERC20.sol": "471157c89111d7b9eab456b53ebe9042bc69504a64cb5cc980d38da9103379ae",
+      "contracts/utils/Address.sol": "b3710b1712637eb8c0df81912da3450da6ff67b0b3ed18146b033ed15b1aa3b9",
+      "contracts/utils/Context.sol": "847fda5460fee70f56f4200f59b82ae622bb03c79c77e67af010e31b7e2cc5b6",
+      "contracts/utils/ReentrancyGuard.sol": "8d0bac508a25133c9ff80206f65164cef959ec084645d1e7b06050c2971ae0fc",
+      "contracts/utils/math/Math.sol": "a6ee779fc42e6bf01b5e6a963065706e882b016affbedfd8be19a71ea48e6e15"
+    }
+  },
+  {
+    "name": "forge-std",
+    "repository": "https://github.com/foundry-rs/forge-std",
+    "version": "v1.9.6",
+    "archive": "https://codeload.github.com/foundry-rs/forge-std/tar.gz/refs/tags/v1.9.6",
+    "archive_sha256": "53d2b498183cb7dc62cf726cc6c1a222ad728b0d87976a877ca1f3ed3707b1c6",
+    "files": {
+      "LICENSE-APACHE": "50b6bf8bdb63265ce14953b480b7aaa0271e78f56843b99c184abd3ae5048cd7",
+      "LICENSE-MIT": "6d185dfe089d4de346d391fc5997fbd4739bad1d6556010413c10f420d704ecc",
+      "src/Base.sol": "d5a2918c9ba38629bcf1c8b5206a0b779eb92576bbebec2024ec6438562ecf74",
+      "src/Script.sol": "c4de2ae936fa7bb4f4250a3908c6bce7acdc84034156cb252fdc2d9a1c020012",
+      "src/StdAssertions.sol": "d4c89eec70d267dec6188461fbc74d3dc8c47e518d176a23417533a232ed9780",
+      "src/StdChains.sol": "eaf3a8b0c8e50545e301c0067450ad2196942e2bedc0e327d7fb61d91474fb54",
+      "src/StdCheats.sol": "29af42f9d670fd22e9fc3ebe3c2da194471e93e210361c41d3d26ef04e9dca28",
+      "src/StdError.sol": "82ca17e33a03775e95b4612bd604a8732c73b2982a0278d214e06c68a886dc11",
+      "src/StdInvariant.sol": "f572e991cfe874844b3b75a540e38e2161c29b5d9ab1635a3c4f1a16c548f987",
+      "src/StdJson.sol": "0211b47e93dbeb6a7de6112470a77137038ed73b79b015847f013e49fcd7511f",
+      "src/StdMath.sol": "f04fc0616741563eb32d66c11af7fdca55a7202221e14282268c7be851fc63ab",
+      "src/StdStorage.sol": "c6dbb05b29be5bcbfabf06ea46b64fe9fbdb7542681795614ca3dee248214215",
+      "src/StdStyle.sol": "324c2b0e100e88edbdb75f60f8a4c42f056f8d618ae5f56b1c404df64e8280a7",
+      "src/StdToml.sol": "de3fb35af79a1fd2a2de9bc4ca7866e4102f9d3fbf11f66f3fe82696412d47e2",
+      "src/StdUtils.sol": "c64a4d5023e6d46884734b8cb1b0f424bab26f0ccc920779b58d2f841c4506ae",
+      "src/Test.sol": "242f2494d264bf00515b7bfcb5a3e6cbc3e737d03795105cbf19f68d8b640dd9",
+      "src/Vm.sol": "37cdc22402df6c218ca65502e7fa2a24a3ce5b796eaaee330ad84fb9578bc73c",
+      "src/console.sol": "896c5a5a5c235cb11a39876d430e1fc2c621e7950c4637ca58251b84b053f178",
+      "src/console2.sol": "3bbe2e07ec53d8cf9c091667fe10234fcb3e2b45eab2c711002188806f46e779",
+      "src/interfaces/IERC1155.sol": "8bb8592c2e1005b0e180215a48f945993eca98561672cfbe6375eb987f5a6ef8",
+      "src/interfaces/IERC165.sol": "9bdab733bba2df028853aef1f5e06871fb4157d15c3c6a670be13f9b614c193b",
+      "src/interfaces/IERC20.sol": "283cedb0cf82640370b77b8a42175bc417c69a02d8989ac6d6a99be2157acd4d",
+      "src/interfaces/IERC4626.sol": "f831df3fcac8dc44b0ae02a61f0d86d3e9f50d71cc74e52f7643ad695d6cab65",
+      "src/interfaces/IERC721.sol": "f44e47686226be0889c4a21f782d653c2ebba509c0c13197edf6a5f1567c52a6",
+      "src/interfaces/IMulticall3.sol": "6620d9c5ea2e2291440e1dcce5072f948b7ec4d65075876a0d0ac9267d3342e3",
+      "src/safeconsole.sol": "ed11aa2efc83fa8e575215a11dd7a9be385cf49dacbc379630168d7334899e46"
+    }
+  }
+]
